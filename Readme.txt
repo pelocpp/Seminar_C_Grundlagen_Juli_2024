@@ -116,5 +116,302 @@ C:\Peter_Loos\C_Erste_Schritte\x64\Debug\C_Erste_Schritte.exe
 
 In einer Datei mit der Endung .exe
 
+====================================================
 
+Variablen und Datentypen
+
+== Speicher 
+
+== ==> Namen
+
+== ==> Format: Ganze Zahl (123),
+               Zahl mit Komma (123.456)
+               Zeichen:        'A' oder '?'
+               Zeichenketten:  "ABCDE"
+
+Speicher:  Format + Name
+
+Format: Datentyp // Name (Bezeichner)
+
+Speicher: Variable
+
+Beispiel:
+
+	int wert;    // Reserviere ich ein Stück Speicher.
+
+    int ist das Format / der Datentyp für ganze Zahlen
+
+2. Beispiel:
+
+    double andererWert;
+
+    double ist das Format / der Datentyp für Zahlen mit Komma
+
+===========================================================
+
+Liste aller Datentypen:
+
+// Datentyp für ganze Zahlen
+short
+int 
+long
+
+// Datentyp für Zahlen mit Komma
+double
+float
+
+Wieso mehrere Datentypen für dasselbe ???
+
+Die Größe des reservierten Speichers ist unterschiedlich.
+
+======================================================
+
+Programmiersprachen (C):   Kennen Datentypen (int, double, ...)
+
+Speicher (physikalisch):   Bits und Bytes
+
+>>> Wie wird ein int-Wert in Bits und Bytes abgelegt ???
+
+Beispiel:
+
+Zahl     Speicher
+
+123  ==> 111 1011
+
+Wie wird das berechnet: 
+
+https://de.wikipedia.org/wiki/Zweierkomplement
+
+Verfahren: Zweierkomplement
+
+// Mikrocomputer Programmierung
+
+Bit:   0 oder 1
+
+Byte:  8 Bits
+
+Byte:  Ist die kleinste Einheit, die eine CPU adressieren kann.
+
+Wieso mehrere Datentypen für dasselbe ???
+
+Eine ganze Zahl kann im Speicher in
+
+1 Byte
+2 Bytes / Word
+4 Bytes / DWord
+8 Bytes / QWord
+
+abgelegt werden.
+
+"Je mehr Bytes, desto größer kann die Zahl sein"
+
+Je mehr Bytes, desto größer ist der Wertebereich der darstellbaren Zahlen
+im Programm.
+
+
+Beispiel für 2 Bytes: / 16 Bits
+
+ 32.767 ist bei 2 Bytes der größte Wert
+    0111 1111 1111 1111
+
+-32.768 ist bei 2 Bytes der kleinste Wert
+    1000 0000 0000 0000
+
+Konsequenz: Programmersteller: Vorstellung: Wie groß sind die Werte,
+            die ich in einem Programm verarbeiten möchte ???
+
+
+Umsetzung in C:
+
+1 Byte            unsigned char
+2 Bytes / Word    short
+4 Bytes / DWord   int    // auch long
+8 Bytes / QWord   long long
+
+Optimal:          size_t  // gemäß den Projekteinstellungen.
+
+
+Für Gleitkommazahlen:
+
+4 Bytes / DWord   float
+8 Bytes / QWord   double
+
+Frage: Wieso nicht gleich mit dem größten Wert / Typ arbeiten?
+
+   Bei wenig Werten egal, kommt auf die Anzahl der Werte im Programm an.
+
+2. Antwort: Eine CPU hat Register;
+
+            Das zentrale Rechnerregister ist ein Register mit dem Namen Akku.
+
+            Dieses wird am performantesten in seiner Breite angesprochen:
+
+            Der Datentyp 'int' (modernes C: 'size_t') ist hierfür geeignet.
+
+// ===================================================
+
+Zu den Wertebereichen:
+
+"Schwachstelle" von C:
+
+Wie viele Bytes hat ein 'int' in C: ?????????????????
+
+Hängt vom Rechner (Betriebssystem) ab.
+
+
+Für die Frage gibt es eine Antwort:  Funktion (operator): sizeof
+
+======================================================
+
+printf: print formatted
+
+Erster Parameter: Zeichenkette
+
+Diese enthalten Stellvertreter:
+
+%d decimal
+%f double, float
+
+%ld long
+%c  char
+%s  Zeichenkette
+
+
+
+Bei der Ausgabe wird der Stellvertreter ersetzt durch den Wert der Variablen,
+die danach folgt.
+
+ACHTUNG: Stolperfalle:
+
+Jeder Typ (int, double, ...) hat einen eigenen Stellvertreter:
+
+Zur Steuerung der Ausgabe gibt es Spezialzeichen:
+
+\n   == New Line == Neue Zeile
+
+======================================================
+
+Variablen, Datentypen und Bezeicher
+
+======================================================
+
+Operatoren
+
+Gängige operatoren
+
++  Addition
+-  Subtraktion
+*  Multiplikation
+/  Division
+
+++  Addition von 1
+--  Subtraktion von 1
+
+Achtung: Punkt-vor-Strich
+
+Mit Hilfe von Operatoren bildet man "arithmetische Ausdrücke":
+
+2 + 3 * 4      ==> 14
+
+In arithmetische Ausdrücken kann man Klammern verwenden:
+
+(2 + 3) * 4    ==> 20
+
+Einige weitere Operatoren:
+
+wert++;
+
+Ist identisch zu
+
+wert = wert + 1;
+
+Bemerkung:
+
+"Punkt-vor-Strich"
+
+Für die vielen Operatoren in C gibt es eine
+Vorrangtabellle:
+
+Precedence = Vorrang auf engl.
+
+https://en.cppreference.com/w/c/language/operator_precedence
+
+Je kleiner der Wert (Precedence),
+desto stärker die "Klammerung"
+
+===============================================================
+
+Initialisierung / Vorbelegung
+
+Jede Variable, die in einem Programm verwendet wird,
+sollte vorbelegt / initialisiert werden.
+
+
+===============================================================
+
+Kontrollstrukturen
+
+if
+--
+
+Entscheidung:   Bedingung
+
+int wert;
+
+Frage:  Ist wert größer 10 oder nicht ???
+
+C: Anweisung:  if-Anweisung  // Bedingungs-Anweisung
+
+SYNTAX:
+
+if ( bedingung )
+{
+}
+
+bedingung:  (arithmetischer) ausdruck => wahr oder falsch.
+
+Variante:
+
+if ( bedingung )
+{
+}
+else 
+{
+}
+
+
+
+int wert = 0;
+
+// wert wird verändert
+
+SYNTAX: Bedingung
+
+Beispiel:
+
+wert >  10      // ist wert groesser 10
+wert >= 10      // ist wert groesser-gleich 10
+wert <  10      // ist wert kleiner 10
+wert <= 10      // ist wert kleiner-gleich 10
+wert == 10      // ist wert gleich 10
+wert != 10      // ist wert ungleich 10
+
+
+
+
+==============================================================
+
+C ist eine format-freie Programmiersprache
+
+Leerzeichen und neue Zeilen gehören nicht zum Programm.
+
+Damit sollten wir VERANTWORTLICH umgehen !!!
+
+(( Python ist eine formatierte Programmiersprache ))
+
+==============================================================
+
+Übung:
+
+== Ein kleiner Taschenrechner
 
