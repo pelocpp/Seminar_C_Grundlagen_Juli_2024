@@ -88,7 +88,7 @@ int main_05()
 }
 
 // Kontrollstrukturen - Logische Verknüpfung von Bedingungen
-int main()
+int main_06()
 {
 	int wert1 = 0;
 	int wert2 = 0;
@@ -116,4 +116,87 @@ int main()
 	//	printf("nicht erfuellt!\n");
 	//}
 
+}
+
+
+// Von Tom:
+
+int main_tom()
+{
+	int wert1 = 0;
+	int wert2 = 0;
+	int wert3 = 0;
+	printf("Bitte Sie eine Ganzzahl ein: ");
+
+	scanf_s("%d", &wert1);  // & wert1 bedeutet, dass scanf auf die ADRESSE von wert1 zugreifen kann
+
+	printf("Bitte Sie eine Ganzzahl ein: ");
+	scanf_s("%d", &wert2);
+	printf("Bitte Sie eine Ganzzahl ein: ");
+	scanf_s("%d", &wert3);
+
+	if (wert1 > wert2 && wert1 > wert3)
+	{
+		printf("Der folgende Wert ist der groesste %d \n", wert1);
+	}
+
+	if (wert2 > wert1 && wert2 > wert3)
+	{
+		printf("Der folgende Wert ist der groesste %d \n", wert2);
+	}
+
+	if (wert3 > wert1 && wert3 > wert2)
+	{
+		printf("Der folgende Wert ist der groesste %d \n", wert3);
+	}
+
+	return 0;
+
+}
+
+int main_07()
+{
+	int n = 1;
+	printf("Bitte geben Sie einen Wert fuer n ein: ");
+	scanf_s("%d", &n);
+	printf("n: %d", n);
+}
+
+
+int main()
+{
+	int n = 1;
+
+	while (n < 10)
+	{
+		// Unerwarteter Wert für n: n == 4 bedeutet FALSCHER Wert
+		//if (n == 4)
+		//{
+		//	break;
+		//}
+
+		// Unerwarteter Wert für n: n == 4 bedeutet FALSCHER Wert
+		// Möchte Schleife NICHT Verlassen, sondern mit dem nächsten Wert
+		// von n fortfahren
+		if (n == 4)
+		{
+			n = n + 1;
+			continue;
+		}
+
+		printf("Erfuellt! %d\n", n);
+
+		n = n + 1;  // Bedingung ändern nicht vergessen
+	}
+
+	// Unerwarteter Wert für n: n == 4 bedeutet FALSCHER Wert
+
+	//while (n < 10 && n != 4)
+	//{
+	//	printf("Erfuellt! %d\n", n);
+
+	//	n = n + 1;  // Bedingung ändern nicht vergessen
+	//}
+
+	printf("Ende\n");
 }

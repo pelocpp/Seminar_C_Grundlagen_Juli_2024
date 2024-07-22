@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Aufgabe_01_3_Werte.cpp" />
+    <ClCompile Include="Aufgabe_02_Uhrzeit.cpp" />
     <ClCompile Include="HelloWorld.c" />
   </ItemGroup>
   <ItemGroup>

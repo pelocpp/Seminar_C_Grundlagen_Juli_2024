@@ -473,6 +473,84 @@ Beispiel 2:
 
     Wieviele Sekunden: 2 * 60 * 60 + 30 * 60 + 59 ==>  7.200 + 1.800 + 59 = 9.059
 
+===========================================================
+
+Frage:
+Falsche Werte von der Konsole eingeben bzgl. Typ  
+
+A) scanf bricht bei unerwarteten Eingaben ab.
+
+B) Produkt-SW:
+
+   i) Man liest eine Zeile von Eingabe komplett ein (als Zeichenkette)
+
+   Beispiel: 30 => "30"
+
+   ii) Die Eingabe ist zu überprüfen
+
+   iii) Es ist eine Umrechnung in den erwünschten Typ vorzunehmen.
+
+====================================================================
+
+Kontrollstrukturen:
+
+if-Anweisung
+
+   ==> Das Überprüfen einer Bedingung.
+
+while-Anweisung
+
+   ==> Eine Anweisung(sfolge) wiederholen
+
+       Mehrfache / Wiederholte Ausführung von Anweisungen.
+
+SYNTAX:
+
+while ( bedingung )
+{
+   // ...
+}
+
+Bonus: 2 Optionen, die Abarbeitung einer while-Kontrollstruktur
+       zu beeinflussen.
+
+break:
+
+Verlässt eine while (for) - Anweisung ... vorzeitig.
+
+continue:
+
+Springt direkt in die erneute Auswertung der Bedingung der while-Schleife (for-Schleife).
+
+VORSICHT: Kontrollierende Variable der Schleife aktualisieren. 
 
 
+
+=======================================================
+
+Nebenbemerkung:
+
+Es gibt in C eine so geannnte Sprunganweisung:
+
+goto ziel;
+
+Diese sollte man NICHT VERWENDEN !!!
+
+Sie führt zu SCHLECHT STRUKTURIERTEM QUELLCODE.
+
+((
+  EINE LETZTE BASTION für den Einsatz von goto:
+  Für den vorzeitigen Abbruch einer mehrfach geschachtelten for-Anweisung.
+))
+
+
+=======================================================
+
+Dienstag:
+
+== for-Anweisung
+
+== Übungen
+
+== Unterprogramme
 
