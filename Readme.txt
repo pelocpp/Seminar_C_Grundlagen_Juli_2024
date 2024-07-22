@@ -415,3 +415,64 @@ Damit sollten wir VERANTWORTLICH umgehen !!!
 
 == Ein kleiner Taschenrechner
 
+========================================
+
+if ==> IF
+
+AND, OR, ...
+
+Weitere Operatoren: Logische Operatoren 
+
+Logische UND:                   &&  
+Logische ODER:                  ||
+Logsiches Nicht / Negation:     !
+
+Beispiel 1:
+
+wert1 > 10 UND wert2 > 20
+
+Gegenteil:
+
+wert1 <= 10 ODER wert2 <= 20 
+
+Wertetabelle:
+
+wert1:         5      15     5       15
+wert2:        15      15     25      25
+Beispiel 1:  falsch  falsch falsch   wahr
+Beispiel 2:  wahr    wahr   wahr    falsch
+
+Gegenteil:   wahr    wahr   wahr     falsch
+
+Beispiel 2:
+
+! (wert1 > 10 UND wert2 > 20)
+
+======================================================
+
+2 Übungen:
+============
+
+1.) Lesen Sie drei int-Werte von der Konsole ein.
+
+    Geben Sie den größten der drei Werte aus.
+
+    Tipp: if-Anweisung.
+
+1.) Lesen Sie von der Konsole drei Werte ein:
+
+    Für Stunden, Minuten und Sekunden.
+
+    // 70 ... falsch .. dann ist das Programm zu beenden.
+
+    Berechen Sie die Anzahl der Sekunden dieser Eingabe:
+
+    Beispiel:
+
+    2 (Stunden), 30 (Minuten) und 59 für Sekunden.
+
+    Wieviele Sekunden: 2 * 60 * 60 + 30 * 60 + 59 ==>  7.200 + 1.800 + 59 = 9.059
+
+
+
+

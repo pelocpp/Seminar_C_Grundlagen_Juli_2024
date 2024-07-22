@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+// #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
@@ -63,12 +63,15 @@ int main_04()
 }
 
 // Kontrollstrukturen - if
-int main()
+int main_05()
 {
 	int n = 0;
 
 	printf("Bitte geben Sie einen Wert fuer n ein: ");
-	scanf("%d", &n);
+	
+	// scanf("%d", &n);      // nicht ganz secure
+
+	scanf_s("%d", &n);    // scanf_s   secure version
 
 	// hier sind noch viele Anweisung vorhanden, die n verändern :)
 
@@ -82,4 +85,35 @@ int main()
 	}
 
 	printf("Ende.");
+}
+
+// Kontrollstrukturen - Logische Verknüpfung von Bedingungen
+int main()
+{
+	int wert1 = 0;
+	int wert2 = 0;
+
+	// viele Anweisungen ......
+	// zB 
+	wert1 = 5;
+	wert2 = 25;
+
+	if ( wert1 <= 10 || wert2 <= 20 )
+	{
+		printf("erfuellt !!!\n");
+	}
+	else
+	{
+		printf("nicht erfuellt!\n");
+	}
+
+	//if ( !  ( wert1 > 10 && wert2 > 20 )   )
+	//{
+	//	printf("erfuellt !!!\n");
+	//}
+	//else
+	//{
+	//	printf("nicht erfuellt!\n");
+	//}
+
 }
