@@ -11,7 +11,7 @@ int main_01()  // Start / Einsprungpunkt des Programms
 }
 
 // Variablen, Datentypen und Bezeicher
-int main_02()
+void main_02()
 {
 	int wert;     // SYNTAX: Vereinbarung einer Variablen vom Typ int
 
@@ -28,7 +28,7 @@ int main_02()
 }
 
 // Operatoren
-int main_03()
+void main_03()
 {
 	int wert;
 
@@ -51,7 +51,7 @@ int main_03()
 
 
 // Vorbelegung
-int main_04()
+void main_04()
 {
 	int i = 0;   // Vereinbarung einer Variablen mit Vorbelegungswert
 
@@ -63,7 +63,7 @@ int main_04()
 }
 
 // Kontrollstrukturen - if
-int main_05()
+void main_05()
 {
 	int n = 0;
 
@@ -88,7 +88,7 @@ int main_05()
 }
 
 // Kontrollstrukturen - Logische Verknüpfung von Bedingungen
-int main_06()
+void main_06()
 {
 	int wert1 = 0;
 	int wert2 = 0;
@@ -121,7 +121,7 @@ int main_06()
 
 // Von Tom:
 
-int main_tom()
+void main_tom()
 {
 	int wert1 = 0;
 	int wert2 = 0;
@@ -149,12 +149,9 @@ int main_tom()
 	{
 		printf("Der folgende Wert ist der groesste %d \n", wert3);
 	}
-
-	return 0;
-
 }
 
-int main_07()
+void main_07()
 {
 	int n = 1;
 	printf("Bitte geben Sie einen Wert fuer n ein: ");
@@ -162,8 +159,7 @@ int main_07()
 	printf("n: %d", n);
 }
 
-
-int main()
+void main_08()
 {
 	int n = 1;
 
@@ -197,6 +193,93 @@ int main()
 
 	//	n = n + 1;  // Bedingung ändern nicht vergessen
 	//}
+
+	printf("Ende\n");
+}
+
+void main_09()
+{
+	printf("for-Kontrollstruktur\n");
+
+	for ( int i = 0; i < 10; i = i + 1)
+	{
+		if (i == 5)
+		{
+			continue;
+		}
+
+		printf("i = %d\n", i);
+	}
+
+	printf("Ende\n");
+}
+
+// globale Variable
+// Empfehlung
+int g_wert = 1;    // g steht für global
+
+void main_10()
+{
+   int nochEinWert = 2;
+
+	printf("Wert: %d\n", nochEinWert);
+}
+
+void main_was_anderes()
+{
+	int Wert = 2;
+
+	printf("Ebenfalls Wert: %d\n", g_wert);
+}
+
+void main_11()
+{
+	printf("for-Kontrollstruktur und lokale Variablen\n");
+
+	int i = 99; // erste lokale Variable i
+
+	for (int i = 0; i < 5; i++ )  // zweite lokale Variable i
+	{
+		printf("i = %d\n", i);    // wird hier verwendet
+	}
+
+	printf("i: %d\n", i);
+
+	printf("Ende\n");
+}
+
+void main_12()
+{
+	printf("for-Kontrollstruktur und lokale Variablen\n");
+
+	int i = 99; // erste lokale Variable i
+
+	for (int i = 0; i < 5; i++)  // zweite lokale Variable i
+	{
+		printf("i = %d\n", i);    // wird hier verwendet
+	}
+
+	printf("i: %d\n", i);
+
+	printf("Ende\n");
+}
+
+void main()
+{
+	printf("gerade / ungerade\n");
+
+	int n = 7;
+
+	int rest = n % 2;   // Operator für den Rest // Modulo  
+
+	if (rest == 1) 
+	{
+		printf("Rest: %d --  ungerade\n", rest);
+	}
+	else
+	{
+		printf("Rest: %d --  gerade\n", rest);
+	}
 
 	printf("Ende\n");
 }
