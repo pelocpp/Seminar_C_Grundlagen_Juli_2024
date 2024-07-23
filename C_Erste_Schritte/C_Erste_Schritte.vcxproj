@@ -132,6 +132,7 @@
     <ClCompile Include="Aufgabe_03_TeuflischeFolge.c" />
     <ClCompile Include="Aufgabe_04_Zinsberechnung.c" />
     <ClCompile Include="Aufgabe_05_Bundesagswahl.c" />
+    <ClCompile Include="Aufgabe_6_Felder.c" />
     <ClCompile Include="CommonData.c" />
     <ClCompile Include="Felder.c" />
     <ClCompile Include="HelloWorld.c" />

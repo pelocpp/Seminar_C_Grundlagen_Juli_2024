@@ -351,5 +351,3 @@ Wir durchlaufen das Feld der Länge 6.
 
 == Wir bestimmen das groesste Element in diesem Feld.
 
-
-

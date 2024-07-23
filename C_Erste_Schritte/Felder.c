@@ -4,12 +4,17 @@
 
 // Felder
 
+// Vorteil: Ist die Laenge zu ändern, muss man nur an EINER
+// Stelle den Wert anpassen
+
+#define  Length   100
+
 // globales Feld // globale Variable
-extern int lotto_zahlen[6];
+extern int lotto_zahlen[Length];
 
-int numbers[6];
+int numbers[Length];
 
-void main()
+void main_random()
 {
 	srand(time(0));
 
@@ -24,16 +29,16 @@ void main()
 }
 
 
-void main_felder()
+void main()
 {
 	// Feld vorbelegen
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < Length; i++)
 	{
 		numbers[i] = 1;
 	}
 
 	// Feld durchlaufen
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < Length; i++)
 	{
 		printf("Wert an der Stelle %d:  %d\n", i, numbers[i]);
 	}
