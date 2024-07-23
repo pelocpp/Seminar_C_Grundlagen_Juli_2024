@@ -132,7 +132,10 @@
     <ClCompile Include="Aufgabe_03_TeuflischeFolge.c" />
     <ClCompile Include="Aufgabe_04_Zinsberechnung.c" />
     <ClCompile Include="Aufgabe_05_Bundesagswahl.c" />
+    <ClCompile Include="CommonData.c" />
+    <ClCompile Include="Felder.c" />
     <ClCompile Include="HelloWorld.c" />
+    <ClCompile Include="Tom_Frage_01.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme.txt" />

@@ -33,6 +33,15 @@
     <ClCompile Include="Aufgabe_05_Bundesagswahl.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Tom_Frage_01.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Felder.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonData.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme.txt" />

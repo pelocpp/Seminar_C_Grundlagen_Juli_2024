@@ -2,9 +2,13 @@
 
 #include <stdio.h>
 
+extern int lotto_zahlen[6];
+
 // Hello Word
 int main_01()  // Start / Einsprungpunkt des Programms
 {
+	lotto_zahlen[0] = 35;
+
 	printf("Hallo Seminar\n");
 
 	return 0;
@@ -264,7 +268,7 @@ void main_12()
 	printf("Ende\n");
 }
 
-void main()
+void main_13()
 {
 	printf("gerade / ungerade\n");
 

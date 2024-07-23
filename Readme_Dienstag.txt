@@ -14,6 +14,8 @@ Dienstag:
 
 == Übungen
 
+== Feld / Array
+
 == Unterprogramme
 
 ================================================
@@ -140,7 +142,7 @@ A) Globale Variablen:
 == Werden AUSSERHALB von Funktionen deklariert.
 == Also auf der obersten Ebene.
 
-Funktionalität: Überall verwendbar !!!
+Funktionalität: Überall verwendbar (lesen oder schreiben // verändern) !!!
 
 B) Lokale Variablen:
 
@@ -281,5 +283,73 @@ Eingabe: 3  ( also für FDP)
 2: SPD     33 %
 3: FDP     66 %
 4: Grüne   0 %
+
+
+=========================================================
+
+Felder // Array
+
+Was ist ein Feld ???
+
+Ich benötige mehrere Variablen DESSELBEN Typs !!!
+
+Beispiel:
+
+A) Lotto-Zahlen:
+
+   6 Zahlen ==> int 
+
+SYNTAX: int lotto_zahlen [ 6 ];
+
+B) Temperaturen in einem Monat:
+
+   Der Einfachheit halber: 30 Tage.
+
+   double temperaturen [30];
+
+Es geht NICHT:
+
+int n;
+scanf("%d", &n);   // n einlesen
+double temperaturen [n]; DAS GEHT NICHT 
+
+Die Länge des Felds MUSS KONSTANT sein.
+
+Wie wird ein Feld
+
+== typischerweise vorbelegt?
+
+== typischerweise durchlaufen?
+
+
+
+======================================================
+
+Wo sucht er // der Compiler ???
+
+Dateien          .C
+
+Object File:     .Obj
+
+
+Maschinencode:   .exe
+
+
+======================================================
+
+Wir legen ein Feld der Länge 6 an.
+
+Es ist ein GLOBALES Feld.
+
+Wir belegen das Feld vor - mit Zufallszahlen im Bereich von 1 .. 100.
+
+Wir durchlaufen das Feld der Länge 6.
+
+== Wir berechnen die Summe aller Elemente in diesem Feld.
+
+== Wir bestimmen das kleinste Element in diesem Feld.
+
+== Wir bestimmen das groesste Element in diesem Feld.
+
 
 
