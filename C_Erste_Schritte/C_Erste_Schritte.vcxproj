@@ -127,8 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Aufgabe_01_3_Werte.cpp" />
-    <ClCompile Include="Aufgabe_02_Uhrzeit.cpp" />
+    <ClCompile Include="Aufgabe_01_Maximum_Von_Drei_Werten.c" />
+    <ClCompile Include="Aufgabe_02_Uhrzeit.c" />
+    <ClCompile Include="Aufgabe_03_TeuflischeFolge.c" />
+    <ClCompile Include="Aufgabe_04_Zinsberechnung.c" />
+    <ClCompile Include="Aufgabe_05_Bundesagswahl.c" />
     <ClCompile Include="HelloWorld.c" />
   </ItemGroup>
   <ItemGroup>

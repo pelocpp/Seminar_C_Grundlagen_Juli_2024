@@ -18,10 +18,19 @@
     <ClCompile Include="HelloWorld.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Aufgabe_01_3_Werte.cpp">
+    <ClCompile Include="Aufgabe_01_Maximum_Von_Drei_Werten.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Aufgabe_02_Uhrzeit.cpp">
+    <ClCompile Include="Aufgabe_02_Uhrzeit.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Aufgabe_03_TeuflischeFolge.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Aufgabe_04_Zinsberechnung.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Aufgabe_05_Bundesagswahl.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

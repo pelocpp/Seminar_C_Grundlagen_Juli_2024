@@ -268,7 +268,7 @@ void main()
 {
 	printf("gerade / ungerade\n");
 
-	int n = 7;
+	int n = 8;
 
 	int rest = n % 2;   // Operator für den Rest // Modulo  
 
