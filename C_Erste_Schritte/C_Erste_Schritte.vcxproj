@@ -132,15 +132,21 @@
     <ClCompile Include="Aufgabe_03_TeuflischeFolge.c" />
     <ClCompile Include="Aufgabe_04_Zinsberechnung.c" />
     <ClCompile Include="Aufgabe_05_Bundesagswahl.c" />
-    <ClCompile Include="Aufgabe_6_Felder.c" />
+    <ClCompile Include="Aufgabe_06_Felder.c" />
     <ClCompile Include="CommonData.c" />
     <ClCompile Include="Felder.c" />
-    <ClCompile Include="HelloWorld.c" />
+    <ClCompile Include="NochMehrUnterprogramme.c" />
+    <ClCompile Include="Program.c" />
     <ClCompile Include="Tom_Frage_01.c" />
+    <ClCompile Include="Unterprogramme.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme.txt" />
     <Text Include="..\Readme_Dienstag.txt" />
+    <Text Include="..\Readme_Mittwoch.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeineUnterprogramme.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

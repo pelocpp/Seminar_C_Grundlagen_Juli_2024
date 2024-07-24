@@ -4,6 +4,13 @@
 
 extern int lotto_zahlen[6];
 
+void exercise_array_minimum();
+
+void main_mini()
+{
+	exercise_array_minimum();
+}
+
 // Hello Word
 int main_01()  // Start / Einsprungpunkt des Programms
 {

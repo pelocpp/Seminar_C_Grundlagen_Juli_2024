@@ -9,7 +9,7 @@
 #define Length       10
 #define OtherLength  100
 
-static void exercise_array_zufallszahlen()
+void exercise_array_zufallszahlen()
 {
     printf("Zufallszahlen\n");
     printf("=============\n");
@@ -35,7 +35,7 @@ static void exercise_array_zufallszahlen()
     printf("\n");
 }
 
-static void exercise_array_summe()
+void exercise_array_summe()
 {
     printf("Summe\n");
     printf("=====\n");
@@ -71,32 +71,33 @@ static void exercise_array_summe()
     printf("Summe: %d\n\n", sum);
 }
 
-static void exercise_array_minimum()
+void exercise_array_minimum()
 {
     printf("Minumum\n");
     printf("=======\n");
 
     int feld[Length] = { 0 };
 
+    // srand ==> s = seed Samen => 
     time_t t;                    // srand erzeugt Startwert fuer den Zufallszahlengenerator,
     srand((unsigned)time(&t));   // der von rand verwendet wird
 
     // Feld vorbelegen mit Zahlen im Bereich von 1 .. 100
     for (int i = 0; i < Length; i++) {
 
-        int zahl = rand();       // rand():  0 .. 32767
-        zahl = zahl % 100;       // 0 .. 99
+        int zahl = rand();       // rand():  0 .. 32.767
+        zahl = zahl % 100;       // 0 .. 99  // % == Rest bei Division
         zahl = zahl + 1;         // 1 .. 100
         feld[i] = zahl;
     }
 
     // Kleinstes Element suchen
-    int min = feld[0];
-    //int min = 100;
+    int kleinstesElement = feld[0];
+
     for (int i = 1; i < Length; i++)
     {
-        if (feld[i] < min) {
-            min = feld[i];
+        if (feld[i] < kleinstesElement) {
+            kleinstesElement = feld[i];
         }
     }
 
@@ -105,9 +106,16 @@ static void exercise_array_minimum()
         printf("%2d\n", feld[i]);
     }
 
+    //int i = 0;
+    //while (i < Length) 
+    //{
+    //    printf("%2d\n", feld[i]);
+    //    i++;
+    //}
+
     // Minimum ausgeben
     printf("\n");
-    printf("Minimum: %d\n\n", min);
+    printf("Minimum: %d\n\n", kleinstesElement);
 }
 
 static void exercise_array_maximum()

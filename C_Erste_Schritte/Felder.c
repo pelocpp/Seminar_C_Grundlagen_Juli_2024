@@ -29,7 +29,7 @@ void main_random()
 }
 
 
-void main()
+void main_20()
 {
 	// Feld vorbelegen
 	for (int i = 0; i < Length; i++)

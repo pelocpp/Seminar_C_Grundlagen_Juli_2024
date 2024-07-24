@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="Aufgabe_01_Maximum_Von_Drei_Werten.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
@@ -42,12 +39,27 @@
     <ClCompile Include="CommonData.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Aufgabe_6_Felder.c">
+    <ClCompile Include="Aufgabe_06_Felder.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Unterprogramme.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="NochMehrUnterprogramme.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme.txt" />
     <Text Include="..\Readme_Dienstag.txt" />
+    <Text Include="..\Readme_Mittwoch.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeineUnterprogramme.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

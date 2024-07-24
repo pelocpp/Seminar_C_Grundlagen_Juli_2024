@@ -54,6 +54,10 @@ void exercise_wahl()
             continue;
         }
 
+        if (stimmzettel == 6) {
+            return;  // Verlaesst das Unterprogramm 
+         }
+
         // Berechne aktuelles Ergebnis:
         int stimmzettelTotal = stimmenCDU + stimmenFDP + stimmenGruene + stimmenLinke + stimmenSPD;
 
