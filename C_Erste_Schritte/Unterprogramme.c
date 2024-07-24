@@ -16,7 +16,7 @@ int summe(int ersterWert, int zweiterWert)
 	return ergebnis;
 }
 
-int main()
+int main_unterprogramme ()
 {
 	int result;
 

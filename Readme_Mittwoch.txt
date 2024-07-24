@@ -200,3 +200,63 @@ Zinsatz: 5
 
 Wieviele Jahre:  Betrag: >= 2000.0 auf dem Konto.
 
+==========================================================
+
+Wie kann man mehrere Werte aus einem Unterprogramm zurückgeben ???
+
+A) Strukturen:  2 Werte : Anzahl Jahre ("15") und "2078"
+
+B) Parameter mit Adressen : Anzahl Jahre ("15") und "2078"
+
+C) Mit einem Array: Da müsste man - zum Beispiel - ein Array
+   der Länge 100 übergeben .... 
+   im 0.-ten, 1.-ten, etc. Eintrag ist dann der entsprechende Verzinsungskapita
+   enthalten ... Wann sind keine Infos im Arrray mehr ... 0 drin steht
+
+D) double kapitalProJahr[50] = { 0.0 };  // Fixed Size !!!! 
+
+   Hier haben wir ein Problem mit dem FIXEN WERT 50:
+
+   ==> dynamische Speicherverwaltung // malloc // free
+   
+
+============================================================
+
+Struktur
+
+Was ist eine Struktur?
+
+Eine Möglichkeit, mehrere Variablen, die logisch zusammengehören,
+
+in einem gemeinsamen Konstrukt zu definieren.
+
+Beispiel:
+
+Uhrzeit:
+
+Stunden, Minuten und Sekunden
+
+int stunden;
+int minuten;
+int sekunden;
+
+2 Uhrzeiten:
+
+Wie geht das mit einer Struktur:
+
+struct Time
+{
+	int stunden;
+	int minuten;
+	int sekunden;
+}
+
+================================================
+
+Arrays  // Strukturen
+
+Unterprogramme
+
+(Arrays oder) Strukturen an ein Unterprogramm übergeben.
+
+

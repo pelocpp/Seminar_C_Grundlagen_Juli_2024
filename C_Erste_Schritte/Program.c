@@ -5,10 +5,13 @@
 extern int lotto_zahlen[6];
 
 void exercise_array_minimum();
+void exercise_unterprogramme();
+void test_struct_2();
+void test_bruch();
 
-void main_mini()
+void main()
 {
-	exercise_array_minimum();
+	test_bruch();
 }
 
 // Hello Word
