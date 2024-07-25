@@ -50,6 +50,11 @@ int exercise_variablen_datentypen_operatoren()
     return 0;
 }
 
+//void main()
+//{
+//    exercise_variablen_datentypen_operatoren();
+//}
+
 // =====================================================================================
 // End-of-File
 // =====================================================================================

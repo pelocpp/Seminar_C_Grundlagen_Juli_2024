@@ -16,7 +16,7 @@ int numbers[Length];
 
 void main_random()
 {
-	srand(time(0));
+	srand (( unsigned int) time(0));
 
 	int n = rand();   // random // 0 .. 32767
 

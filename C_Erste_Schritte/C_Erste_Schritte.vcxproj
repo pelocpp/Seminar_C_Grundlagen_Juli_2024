@@ -134,7 +134,7 @@
     <ClCompile Include="Aufgabe_05_Bundesagswahl.c" />
     <ClCompile Include="Aufgabe_06_Felder.c" />
     <ClCompile Include="Aufgabe_07_Unterprogramme.c" />
-    <ClCompile Include="Brueche.c" />
+    <ClCompile Include="Aufgabe_08_Brueche.c" />
     <ClCompile Include="CommonData.c" />
     <ClCompile Include="Felder.c" />
     <ClCompile Include="NochMehrUnterprogramme.c" />
@@ -145,9 +145,10 @@
     <ClCompile Include="Unterprogramme.c" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\Readme.txt" />
-    <Text Include="..\Readme_Dienstag.txt" />
-    <Text Include="..\Readme_Mittwoch.txt" />
+    <Text Include="..\Readme_01.txt" />
+    <Text Include="..\Readme_02_Dienstag.txt" />
+    <Text Include="..\Readme_04_Donnerstag.txt" />
+    <Text Include="..\Readme_03_Mittwoch.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MeineUnterprogramme.h" />

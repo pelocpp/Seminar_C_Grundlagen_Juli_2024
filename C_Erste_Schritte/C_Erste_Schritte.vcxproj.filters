@@ -60,14 +60,15 @@
     <ClCompile Include="Strukturen.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Brueche.c">
+    <ClCompile Include="Aufgabe_08_Brueche.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\Readme.txt" />
-    <Text Include="..\Readme_Dienstag.txt" />
-    <Text Include="..\Readme_Mittwoch.txt" />
+    <Text Include="..\Readme_01.txt" />
+    <Text Include="..\Readme_02_Dienstag.txt" />
+    <Text Include="..\Readme_03_Mittwoch.txt" />
+    <Text Include="..\Readme_04_Donnerstag.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MeineUnterprogramme.h">

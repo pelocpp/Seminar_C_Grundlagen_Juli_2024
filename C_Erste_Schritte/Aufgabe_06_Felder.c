@@ -118,7 +118,7 @@ void exercise_array_minimum()
     printf("Minimum: %d\n\n", kleinstesElement);
 }
 
-static void exercise_array_maximum()
+void exercise_array_maximum()
 {
     printf("Maximum\n");
     printf("=======\n");
@@ -156,13 +156,13 @@ static void exercise_array_maximum()
     printf("Maximum: %d\n\n", max);
 }
 
-void exercise_array_minimum_maximum()
-{
-    exercise_array_zufallszahlen();
-    exercise_array_summe();
-    exercise_array_minimum();
-    exercise_array_maximum();
-}
+//void exercise_array_minimum_maximum()
+//{
+//    exercise_array_zufallszahlen();
+//    exercise_array_summe();
+//    exercise_array_minimum();
+//    exercise_array_maximum();
+//}
 
 // =====================================================================================
 // End-of-File

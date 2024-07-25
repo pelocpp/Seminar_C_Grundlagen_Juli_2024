@@ -34,7 +34,6 @@ void exercises_areas()
     printf("Rectange with height %lf and width %lf has area %lf.\n", h, w, area);
 }
 
-
 double doubled_interest_rate(double capital, double rate)
 {
     double newCapital;
@@ -53,6 +52,8 @@ double doubled_interest_rate(double capital, double rate)
 
         year = year + 1;
     }
+
+    return newCapital;
 }
 
 void exercise_doubled_interest_rate()
@@ -60,11 +61,16 @@ void exercise_doubled_interest_rate()
     doubled_interest_rate(1000.0, 5.0);
 }
 
-
 void exercise_unterprogramme()
 {
     exercise_doubled_interest_rate();
 }
+
+//void main()
+//{
+//    exercises_areas();
+//    exercise_doubled_interest_rate();
+//}
 
 // =====================================================================================
 // End-of-File

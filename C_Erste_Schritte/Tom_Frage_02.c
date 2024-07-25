@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 //Zinsberechnung 
 //double zinssatz, double startkapital
 
@@ -26,6 +28,8 @@ int DoubledInterestRateMitArray (double zinssatz, double kapital, double kapital
             return jahre;
         }
     }
+
+    return 1;
 }
 
 
@@ -47,6 +51,9 @@ double DoubledInterestRate(double zinssatz, double kapital)
             return kapital;
         }
     }
+
+    // should never be reached
+    return -1.0;
 }
 
 

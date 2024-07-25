@@ -1,3 +1,9 @@
+// =====================================================================================
+// Brueche.c
+// =====================================================================================
+
+#include <stdio.h>
+
 // Schulmathematik
 
 // 1 / 7 ===> Bruch   // Rationale Zahl
@@ -31,7 +37,7 @@ void printBruch(struct Bruch b)
 }
 
 // 3 mal 1/7 = 3/7
-struct Bruch scalarProdukt (struct Bruch b, int scalar)
+struct Bruch scalarProdukt(struct Bruch b, int scalar)
 {
 	struct Bruch result;
 
@@ -119,3 +125,11 @@ void test_bruch()
 	printf("\n");
 }
 
+//void main()
+//{
+//	test_bruch();
+//}
+
+// =====================================================================================
+// End-of-File
+// =====================================================================================

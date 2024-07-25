@@ -37,6 +37,11 @@ void exercise_zinsberechnung()
         startCapitalStock, year, capitalStock);
 }
 
+//void main()
+//{
+//    exercise_zinsberechnung();
+//}
+
 // =====================================================================================
 // End-of-File
 // =====================================================================================

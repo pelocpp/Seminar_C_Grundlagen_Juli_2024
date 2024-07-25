@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-static void exercise_maximum_solution_01()
+void exercise_maximum_solution_01()
 {
     // Find largest among three numbers using if..else statement
 
@@ -27,7 +27,7 @@ static void exercise_maximum_solution_01()
     }
 }
 
-static void exercise_maximum_solution_02()
+void exercise_maximum_solution_02()
 {
     // Find the largest number among three using nested if..else statement
 
@@ -66,6 +66,11 @@ void exercise_maximum()
     exercise_maximum_solution_01();
     exercise_maximum_solution_02();
 }
+
+//void main()
+//{
+//    exercise_maximum();
+//}
 
 // =====================================================================================
 // End-of-File

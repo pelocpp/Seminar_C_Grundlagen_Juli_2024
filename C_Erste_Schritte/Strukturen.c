@@ -1,5 +1,7 @@
 // Strukturen
 
+#include <stdio.h>
+
 struct Time
 {
 	int hours;
@@ -14,7 +16,6 @@ void printTime(struct Time t)
 
 void test_struct()
 {
-	int n;
 	struct Time now;
 
 	// A)

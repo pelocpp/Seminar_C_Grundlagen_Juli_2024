@@ -259,4 +259,7 @@ Unterprogramme
 
 (Arrays oder) Strukturen an ein Unterprogramm übergeben.
 
+================================================
+
+Datentyp ZEIGER // POINTER
 
