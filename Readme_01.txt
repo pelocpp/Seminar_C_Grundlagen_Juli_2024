@@ -2,7 +2,29 @@ C Einführung
 
 Peter Loos
 
+peter.loos@gmx.de
+
 Guten Morgen
+
+================================================
+
+Alle meine Unterlagen:
+
+https://github.com/pelocpp
+
+C Einführung:
+
+https://github.com/pelocpp/c_introduction
+
+================================================
+
+Seminar:
+
+Seminar_C_Grundlagen_Juli_2024 Public
+
+https://github.com/pelocpp/Seminar_C_Grundlagen_Juli_2024
+
+3-4 Wochen verfügbar
 
 ================================================
 

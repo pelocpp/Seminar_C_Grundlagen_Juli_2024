@@ -8,10 +8,15 @@ void exercise_array_minimum();
 void exercise_unterprogramme();
 void test_struct_2();
 void test_bruch();
+void test_zeichen();
+void test_ascii_table();
+void test_string_01();
+void test_string_vorbereitung_01();
+void test_klein_nach_gross();
 
 void main()
 {
-	test_bruch();
+	test_klein_nach_gross();
 }
 
 // Hello Word

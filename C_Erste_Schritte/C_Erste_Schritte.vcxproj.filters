@@ -63,6 +63,12 @@
     <ClCompile Include="Aufgabe_08_Brueche.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Preprozessor.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Zeichenketten.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme_01.txt" />

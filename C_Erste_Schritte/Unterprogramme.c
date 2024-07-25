@@ -4,7 +4,6 @@
 
 void GutenMorgen();   // Syntax: Unterprogramm
 
-
 int summe(int ersterWert, int zweiterWert)
 {
 	int ergebnis;
