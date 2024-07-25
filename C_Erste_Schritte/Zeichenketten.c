@@ -73,28 +73,3 @@ void test_string_vorbereitung_01()
 	printf("ch = %c\n", ch);
 }
 
-void toUpper(char zeichen[])
-{
-	int i = 0;
-
-	// wielange kann ich zugreifen
-	// zeichen[i] 
-
-	//while (zeichen[i] != '\0')
-	//{
-	//	// .....
-	//}
-}
-
-void test_klein_nach_gross()
-{
-	char vieleZeichen[] = "asadwsASDASD123";
-
-	printf("%s\n", vieleZeichen);
-	toUpper(vieleZeichen);
-	printf("%s\n", vieleZeichen);
-}
-
-
-
-

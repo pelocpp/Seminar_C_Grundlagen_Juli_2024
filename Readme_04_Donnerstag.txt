@@ -118,4 +118,3 @@ und
 a) Wandeln alle Kleinbuchstaben in Großbuchstaben um
 b) Wandeln alle Großbuchstaben in Kleinbuchstaben um
 c) Kehrt die Reihenfolge der Zeichen um ( "123" wird "321" )
-

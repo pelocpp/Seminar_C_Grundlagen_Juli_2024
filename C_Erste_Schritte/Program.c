@@ -14,10 +14,10 @@ void test_string_01();
 void test_string_vorbereitung_01();
 void test_klein_nach_gross();
 
-void main()
-{
-	test_klein_nach_gross();
-}
+//void main()
+//{
+//	test_klein_nach_gross();
+//}
 
 // Hello Word
 int main_01()  // Start / Einsprungpunkt des Programms

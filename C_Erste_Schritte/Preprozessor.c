@@ -12,4 +12,6 @@ void test()
 	n = Mein_Pi;
 
 	int zahlen[Length];
+
+	zahlen[0] = 123;
 }

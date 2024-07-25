@@ -135,6 +135,7 @@
     <ClCompile Include="Aufgabe_06_Felder.c" />
     <ClCompile Include="Aufgabe_07_Unterprogramme.c" />
     <ClCompile Include="Aufgabe_08_Brueche.c" />
+    <ClCompile Include="Aufgabe_08_Zeichenketten.c" />
     <ClCompile Include="CommonData.c" />
     <ClCompile Include="Felder.c" />
     <ClCompile Include="NochMehrUnterprogramme.c" />
