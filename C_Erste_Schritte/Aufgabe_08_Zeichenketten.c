@@ -79,11 +79,11 @@ void exercise_zeichenketten()
 	printf("%s\n", vieleZeichen);
 }
 
-void main()
-{
-	exercise_test_reverse();
-    exercise_zeichenketten();
-}
+//void main()
+//{
+//	exercise_test_reverse();
+//    exercise_zeichenketten();
+//}
 
 // =====================================================================================
 // End-of-File

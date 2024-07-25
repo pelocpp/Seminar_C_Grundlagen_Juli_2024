@@ -75,6 +75,15 @@
     <ClCompile Include="Tom_Frage_03.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Zeiger.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamischenSpeicher.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Aufgabe_09_KontakteVerwaltung.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme_01.txt" />

@@ -136,7 +136,9 @@
     <ClCompile Include="Aufgabe_07_Unterprogramme.c" />
     <ClCompile Include="Aufgabe_08_Brueche.c" />
     <ClCompile Include="Aufgabe_08_Zeichenketten.c" />
+    <ClCompile Include="Aufgabe_09_KontakteVerwaltung.c" />
     <ClCompile Include="CommonData.c" />
+    <ClCompile Include="DynamischenSpeicher.c" />
     <ClCompile Include="Felder.c" />
     <ClCompile Include="NochMehrUnterprogramme.c" />
     <ClCompile Include="Preprozessor.c" />
@@ -147,6 +149,7 @@
     <ClCompile Include="Tom_Frage_03.c" />
     <ClCompile Include="Unterprogramme.c" />
     <ClCompile Include="Zeichenketten.c" />
+    <ClCompile Include="Zeiger.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme_01.txt" />

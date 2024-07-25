@@ -14,7 +14,7 @@ Zeichenketten
 
 Datentyp Zeiger / Pointer
 
-new / delete
+new / delete Dynamische: Speicherverwaltung
 
 Felder mit Strukturen
 
@@ -129,5 +129,71 @@ Ich erhalte KEINE FEHLERMELDUNG der Art "Multiple Definition"
 
 ================================================================
 
-13:40
-=====
+C als Programmiersprache:
+
+== Fundament
+
+== Kür / Fortgeschrittene Aspekte
+
+-- Zeiger / Pointer  (Embedded Programming)
+
+Adresse im Speicher:  0x00AFD12A
+
+In C: "Robustheit" ===> Adressen in C sind mit einem Datentyp verbunden.
+
+ACHTUNG:
+
+"=": Anzahl der Dereferenzierungen bei "int *" und "int"
+unterschiedlich.
+
+FEHLER  ( keine Warning )
+
+====================================================
+
+Unterprogramme
+
+Funktion (return)  // Proezduren (void)
+
+Parameter // Stellvertreter
+
+Technik der Übergabe von Parametern
+
+https://github.com/pelocpp/cpp_introduction/blob/master/Cpp_Introduction/Markdown/ParameterPassingTechniques.md
+
+Standard:
+--------
+
+Parameterübergabemechanismus "Call-by-Value"
+--------------------------------------------
+
+============> Auf einer KOPIE arbeiten.
+
+2. Variante:
+------------
+
+Parameterübergabemechanismus "Call-by-Address"
+
+============> Auf dem ORIGINAL mit Hilfe einer Adresse arbeiten.
+
+
+==============================================================
+
+Pointer / Zeiger:
+
+A) Parameterübergabe
+
+B) Dynamischer Speicher
+
+-- Was ist dynamischer Speicher ???
+
+-- Welche Arten von Speicher gibt es überhaupt ?????????
+
+https://github.com/pelocpp/c_introduction/blob/master/C_Introduction/Tutorial/MemoryManagement/MemoryManagement.md
+
+malloc liefert einen Speicherbereich zur Verfügung // Anfangsadresse zurück.
+
+Dieser Speicherbereich kann solange verwendet werden,
+bis wir ihn mit free wieder freigeben.
+
+===========================================================
+

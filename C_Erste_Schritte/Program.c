@@ -12,12 +12,13 @@ void test_zeichen();
 void test_ascii_table();
 void test_string_01();
 void test_string_vorbereitung_01();
-void test_klein_nach_gross();
+void test_zeiger();
+void test_dynamic_memory();
 
-//void main()
-//{
-//	test_klein_nach_gross();
-//}
+void main()
+{
+	test_dynamic_memory();
+}
 
 // Hello Word
 int main_01()  // Start / Einsprungpunkt des Programms
