@@ -197,3 +197,22 @@ bis wir ihn mit free wieder freigeben.
 
 ===========================================================
 
+== Felder und Strukturen
+== Zeichenketten
+== Bibliotheks-Funktionen 
+
+https://github.com/pelocpp/c_introduction/blob/master/C_Introduction/Exercises/Contacts/Exercises_Contacts.md
+
+Kontakte-Verwaltung:  App Kontakte
+
+== Bibliotheks-Funktionen:
+
+   printf, scanf
+   malloc, free
+   strcpy, strlen
+
+
+Hinweis:
+
+Name eines Feld: Steht für die Adresse des ersten Elements.
+
