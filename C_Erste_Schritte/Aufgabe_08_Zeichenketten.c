@@ -4,19 +4,23 @@
 
 #include <stdio.h>
 
-void toUpper(char kette[])
+static void toUpper(char kette[])
 {
 	int i = 0;
 
 	while (kette[i] != '\0')
 	{
-		if (kette[i] >= 'a' && kette[i] <= 'z') {
+     // if (kette[i] >= 97 && kette[i] <= 122) {
+		if (kette[i] >= 'a' && kette[i] <= 'z')
+		{
 			kette[i] = kette[i] - 32;
 		}
 
 		i++;
 	}
 }
+
+// exchangeLowerAndUpper
 
 void toLower(char kette[])
 {
@@ -25,7 +29,7 @@ void toLower(char kette[])
 	while (kette[i] != '\0')
 	{
 		if (kette[i] >= 'A' && kette[i] <= 'Z') {
-			kette[i] = kette[i] + 32;
+			kette[i] = kette[i] + 32;  // 32 = 'a' - 'A'
 		}
 
 		i++;
@@ -34,6 +38,7 @@ void toLower(char kette[])
 
 void reverse(char kette[])
 {
+	// compute length
 	int length = 0;
 	while (kette[length] != '\0') {
 		length++;
@@ -47,12 +52,24 @@ void reverse(char kette[])
 	}
 }
 
+void exercise_test_reverse()
+{
+	char vieleZeichen[] = "ABC";
+	printf("%s\n", vieleZeichen);
+
+	reverse(vieleZeichen);
+	printf("%s\n", vieleZeichen);
+}
+
 void exercise_zeichenketten()
 {
 	char vieleZeichen[] = "!abcde123vwxyz?";
+	                   // "!ABCDE123VWXYZ?";
+
 	printf("%s\n", vieleZeichen);
 
 	toUpper(vieleZeichen);
+
 	printf("%s\n", vieleZeichen);
 
 	toLower(vieleZeichen);
@@ -64,6 +81,7 @@ void exercise_zeichenketten()
 
 void main()
 {
+	exercise_test_reverse();
     exercise_zeichenketten();
 }
 

@@ -72,6 +72,9 @@
     <ClCompile Include="Aufgabe_08_Zeichenketten.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Tom_Frage_03.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Readme_01.txt" />

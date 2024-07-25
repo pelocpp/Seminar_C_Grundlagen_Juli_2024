@@ -118,3 +118,16 @@ und
 a) Wandeln alle Kleinbuchstaben in Großbuchstaben um
 b) Wandeln alle Großbuchstaben in Kleinbuchstaben um
 c) Kehrt die Reihenfolge der Zeichen um ( "123" wird "321" )
+
+================================================================
+
+static: Bewirkt, dass die Funktion NICHT IN ANDEREN
+
+        Dateien zur Verfügung steht / aufgerufen werden kann.
+
+Ich erhalte KEINE FEHLERMELDUNG der Art "Multiple Definition"
+
+================================================================
+
+13:40
+=====

@@ -144,6 +144,7 @@
     <ClCompile Include="Strukturen.c" />
     <ClCompile Include="Tom_Frage_01.c" />
     <ClCompile Include="Tom_Frage_02.c" />
+    <ClCompile Include="Tom_Frage_03.c" />
     <ClCompile Include="Unterprogramme.c" />
     <ClCompile Include="Zeichenketten.c" />
   </ItemGroup>
